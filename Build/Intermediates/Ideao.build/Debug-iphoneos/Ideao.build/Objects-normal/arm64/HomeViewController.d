@@ -51,4 +51,5 @@ dependencies: /Users/adamf/Desktop/Ideao/Ideao/HomeViewController.m \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Headers/Digits.h \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Headers/TwitterKit.h \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Modules/module.modulemap \
-  /Users/adamf/Desktop/Ideao/Ideao/DataModels/User.h
+  /Users/adamf/Desktop/Ideao/Ideao/DataModels/User.h \
+  /Users/adamf/Desktop/Ideao/Ideao/CardView.h
