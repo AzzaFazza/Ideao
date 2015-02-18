@@ -23,6 +23,9 @@
 		362E9A7C1A94EC5300CFC25A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 362E9A7B1A94EC5300CFC25A /* User.m */; };
 		362E9A7F1A94F80400CFC25A /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362E9A7D1A94F80400CFC25A /* MoPub.framework */; };
 		362E9A801A94F80400CFC25A /* MoPub.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 362E9A7E1A94F80400CFC25A /* MoPub.bundle */; };
+		36F403741A9502AD00E46829 /* CardContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36F403711A9502AD00E46829 /* CardContentView.xib */; };
+		36F403751A9502AD00E46829 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F403731A9502AD00E46829 /* CardView.m */; };
+		C583887AB5893C19AE3983FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5EE43D002AAA21B4F91256 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1575BC9784037683C18B3221 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		362E9A411A94C96A00CFC25A /* Ideao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ideao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		362E9A451A94C96A00CFC25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		362E9A461A94C96A00CFC25A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +64,11 @@
 		362E9A7B1A94EC5300CFC25A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = DataModels/User.m; sourceTree = "<group>"; };
 		362E9A7D1A94F80400CFC25A /* MoPub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MoPub.framework; sourceTree = SOURCE_ROOT; };
 		362E9A7E1A94F80400CFC25A /* MoPub.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MoPub.bundle; path = MoPub.framework/Versions/A/Resources/MoPub.bundle; sourceTree = SOURCE_ROOT; };
+		36F403711A9502AD00E46829 /* CardContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardContentView.xib; sourceTree = "<group>"; };
+		36F403721A9502AD00E46829 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		36F403731A9502AD00E46829 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		3B5EE43D002AAA21B4F91256 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5800B3B9917B19071961D7D4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +80,7 @@
 				362E9A711A94C9E700CFC25A /* Fabric.framework in Frameworks */,
 				362E9A7F1A94F80400CFC25A /* MoPub.framework in Frameworks */,
 				362E9A741A94CA3D00CFC25A /* TwitterKit.framework in Frameworks */,
+				C583887AB5893C19AE3983FE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +100,8 @@
 				362E9A431A94C96A00CFC25A /* Ideao */,
 				362E9A601A94C96A00CFC25A /* IdeaoTests */,
 				362E9A421A94C96A00CFC25A /* Products */,
+				8CB813723CA3ADACBFE7E9A2 /* Pods */,
+				4BE89C750E74D7B18E1C5029 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,24 +117,14 @@
 		362E9A431A94C96A00CFC25A /* Ideao */ = {
 			isa = PBXGroup;
 			children = (
-				362E9A481A94C96A00CFC25A /* AppDelegate.h */,
-				362E9A491A94C96A00CFC25A /* AppDelegate.m */,
-				362E9A4E1A94C96A00CFC25A /* LoginViewController.h */,
-				362E9A4F1A94C96A00CFC25A /* LoginViewController.m */,
-				362E9A761A94DF3600CFC25A /* HomeViewController.h */,
-				362E9A771A94DF3600CFC25A /* HomeViewController.m */,
-				362E9A511A94C96A00CFC25A /* Main.storyboard */,
+				36F4037C1A95033900E46829 /* FrameWorks */,
+				36F4037B1A95030C00E46829 /* DataModels */,
+				36F4037A1A9502F700E46829 /* StoryBoard */,
+				36F403791A9502E700E46829 /* HomeViewController */,
+				36F403781A9502D900E46829 /* Login */,
+				36F403771A9502CC00E46829 /* AppDelegate */,
+				36F403761A9502B600E46829 /* CardView */,
 				362E9A541A94C96A00CFC25A /* Images.xcassets */,
-				362E9A561A94C96A00CFC25A /* LaunchScreen.xib */,
-				362E9A4B1A94C96A00CFC25A /* Ideao.xcdatamodeld */,
-				362E9A7A1A94EC5300CFC25A /* User.h */,
-				362E9A7B1A94EC5300CFC25A /* User.m */,
-				362E9A7D1A94F80400CFC25A /* MoPub.framework */,
-				362E9A7E1A94F80400CFC25A /* MoPub.bundle */,
-				362E9A721A94CA3D00CFC25A /* TwitterKit.framework */,
-				362E9A731A94CA3D00CFC25A /* TwitterKitResources.bundle */,
-				362E9A6E1A94C9E700CFC25A /* Crashlytics.framework */,
-				362E9A6F1A94C9E700CFC25A /* Fabric.framework */,
 				362E9A441A94C96A00CFC25A /* Supporting Files */,
 			);
 			path = Ideao;
@@ -154,6 +156,92 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		36F403761A9502B600E46829 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				36F403711A9502AD00E46829 /* CardContentView.xib */,
+				36F403721A9502AD00E46829 /* CardView.h */,
+				36F403731A9502AD00E46829 /* CardView.m */,
+			);
+			name = CardView;
+			sourceTree = "<group>";
+		};
+		36F403771A9502CC00E46829 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				362E9A481A94C96A00CFC25A /* AppDelegate.h */,
+				362E9A491A94C96A00CFC25A /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		36F403781A9502D900E46829 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				362E9A4E1A94C96A00CFC25A /* LoginViewController.h */,
+				362E9A4F1A94C96A00CFC25A /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		36F403791A9502E700E46829 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				362E9A761A94DF3600CFC25A /* HomeViewController.h */,
+				362E9A771A94DF3600CFC25A /* HomeViewController.m */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		36F4037A1A9502F700E46829 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				362E9A511A94C96A00CFC25A /* Main.storyboard */,
+				362E9A561A94C96A00CFC25A /* LaunchScreen.xib */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		36F4037B1A95030C00E46829 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				362E9A4B1A94C96A00CFC25A /* Ideao.xcdatamodeld */,
+				362E9A7A1A94EC5300CFC25A /* User.h */,
+				362E9A7B1A94EC5300CFC25A /* User.m */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		36F4037C1A95033900E46829 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				362E9A7D1A94F80400CFC25A /* MoPub.framework */,
+				362E9A7E1A94F80400CFC25A /* MoPub.bundle */,
+				362E9A721A94CA3D00CFC25A /* TwitterKit.framework */,
+				362E9A731A94CA3D00CFC25A /* TwitterKitResources.bundle */,
+				362E9A6E1A94C9E700CFC25A /* Crashlytics.framework */,
+				362E9A6F1A94C9E700CFC25A /* Fabric.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+		4BE89C750E74D7B18E1C5029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B5EE43D002AAA21B4F91256 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CB813723CA3ADACBFE7E9A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1575BC9784037683C18B3221 /* Pods.debug.xcconfig */,
+				5800B3B9917B19071961D7D4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,10 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 362E9A671A94C96A00CFC25A /* Build configuration list for PBXNativeTarget "Ideao" */;
 			buildPhases = (
+				3B05909872A8F5D86139CFFA /* Check Pods Manifest.lock */,
 				362E9A3D1A94C96A00CFC25A /* Sources */,
 				362E9A3E1A94C96A00CFC25A /* Frameworks */,
 				362E9A3F1A94C96A00CFC25A /* Resources */,
 				362E9A6D1A94C9A000CFC25A /* ShellScript */,
+				9867D72F54DBE08797B5C9FA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F403741A9502AD00E46829 /* CardContentView.xib in Resources */,
 				362E9A751A94CA3D00CFC25A /* TwitterKitResources.bundle in Resources */,
 				362E9A531A94C96A00CFC25A /* Main.storyboard in Resources */,
 				362E9A801A94F80400CFC25A /* MoPub.bundle in Resources */,
@@ -266,6 +357,36 @@
 			shellPath = /bin/sh;
 			shellScript = "./Fabric.framework/run bafd2bcb9a8d0d0aeaadc0c43fe1348be257fae3 7fee39636c6cd92cac0aa280bdb23a40c6e7fb94db02135a4bc45b34a1e0a558";
 		};
+		3B05909872A8F5D86139CFFA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9867D72F54DBE08797B5C9FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -279,6 +400,7 @@
 				362E9A501A94C96A00CFC25A /* LoginViewController.m in Sources */,
 				362E9A791A94E9AC00CFC25A /* HomeViewController.m in Sources */,
 				362E9A471A94C96A00CFC25A /* main.m in Sources */,
+				36F403751A9502AD00E46829 /* CardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +520,7 @@
 		};
 		362E9A681A94C96A00CFC25A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1575BC9784037683C18B3221 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -412,6 +535,7 @@
 		};
 		362E9A691A94C96A00CFC25A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5800B3B9917B19071961D7D4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (

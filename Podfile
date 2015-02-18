@@ -1,1 +1,2 @@
-
+pod 'ZLSwipeableView'
+pod 'FlatUIKit'

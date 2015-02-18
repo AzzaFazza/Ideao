@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fyXohyJGrohXbvwJ/ZdPx2mqxic=
+			2vLSuZjZmA/99y+zJ0WFpPhGSqI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +26,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vuiNxxMq6GhJNO5GnSDo4taYsqw=
+			FhON4u6Ee1oLACaIvt4E7YvSXgg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EyV6Z3EwmR+nczE1CQJU7nQcUiE=
+			v+Qjff+bJojEYUqE18oS+aQwb/g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -44,7 +44,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EIwhyC5/SSKhPjFWL3VZut/ohhg=
+			vao5QBoAfqOTtPfwXEHgQl+W6iE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,11 +53,15 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yj5a6iY0C5Ovc9w6dgETwVjIu7U=
+			JDdd8leIUYPKQF/e1Ezu1+3Gxow=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>CardContentView.nib</key>
+		<data>
+		I36o2xE+YX0KY9Fb6gc87Vmn7+c=
+		</data>
 		<key>Ideao.momd/Ideao.mom</key>
 		<data>
 		4y1C0a7MFhAM9PBBTgsZL29DwBU=
@@ -73,6 +77,22 @@
 		<key>Info.plist</key>
 		<data>
 		cdAcj4lgkJOljHN6kyHqxA+JQsE=
+		</data>
+		<key>Lato-Bold.ttf</key>
+		<data>
+		wzDVnz5k4HolccK6T0EJsgoWj2k=
+		</data>
+		<key>Lato-Italic.ttf</key>
+		<data>
+		5M6oA1olioaaYTn7905tDCR71Js=
+		</data>
+		<key>Lato-Light.ttf</key>
+		<data>
+		brlRCP74G9jPv34g1MoGNOWYkBk=
+		</data>
+		<key>Lato-Regular.ttf</key>
+		<data>
+		En8kGHGp/kLNjQc6CDVBDzgk1Xw=
 		</data>
 		<key>MoPub.bundle/Info.plist</key>
 		<data>
@@ -764,6 +784,10 @@
 		<data>
 		a6fqk91Dgum1sAn5i3FFCSqjLdI=
 		</data>
+		<key>flat-ui-icons-regular.ttf</key>
+		<data>
+		OMIWLvbu4CvjKZzq3atPLEtIaqE=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -771,7 +795,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fyXohyJGrohXbvwJ/ZdPx2mqxic=
+			2vLSuZjZmA/99y+zJ0WFpPhGSqI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -789,7 +813,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vuiNxxMq6GhJNO5GnSDo4taYsqw=
+			FhON4u6Ee1oLACaIvt4E7YvSXgg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -798,7 +822,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EyV6Z3EwmR+nczE1CQJU7nQcUiE=
+			v+Qjff+bJojEYUqE18oS+aQwb/g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -807,7 +831,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EIwhyC5/SSKhPjFWL3VZut/ohhg=
+			vao5QBoAfqOTtPfwXEHgQl+W6iE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -816,11 +840,15 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yj5a6iY0C5Ovc9w6dgETwVjIu7U=
+			JDdd8leIUYPKQF/e1Ezu1+3Gxow=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>CardContentView.nib</key>
+		<data>
+		I36o2xE+YX0KY9Fb6gc87Vmn7+c=
+		</data>
 		<key>Ideao.momd/Ideao.mom</key>
 		<data>
 		4y1C0a7MFhAM9PBBTgsZL29DwBU=
@@ -832,6 +860,22 @@
 		<key>Ideao.momd/VersionInfo.plist</key>
 		<data>
 		3txH++MOlPM0bt5BGXfLnnckDKo=
+		</data>
+		<key>Lato-Bold.ttf</key>
+		<data>
+		wzDVnz5k4HolccK6T0EJsgoWj2k=
+		</data>
+		<key>Lato-Italic.ttf</key>
+		<data>
+		5M6oA1olioaaYTn7905tDCR71Js=
+		</data>
+		<key>Lato-Light.ttf</key>
+		<data>
+		brlRCP74G9jPv34g1MoGNOWYkBk=
+		</data>
+		<key>Lato-Regular.ttf</key>
+		<data>
+		En8kGHGp/kLNjQc6CDVBDzgk1Xw=
 		</data>
 		<key>MoPub.bundle/Info.plist</key>
 		<data>
@@ -1518,6 +1562,10 @@
 		<key>embedded.mobileprovision</key>
 		<data>
 		a6fqk91Dgum1sAn5i3FFCSqjLdI=
+		</data>
+		<key>flat-ui-icons-regular.ttf</key>
+		<data>
+		OMIWLvbu4CvjKZzq3atPLEtIaqE=
 		</data>
 	</dict>
 	<key>rules</key>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7AF88D24-4DE3-46DD-9F80-A665DB1653E0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Ideao</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>179323763E7477B2E95DD8A65E61C8E1574AC6FA</key>
+		<string>https://github.com/AzzaFazza/Ideao.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Ideao.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>179323763E7477B2E95DD8A65E61C8E1574AC6FA</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AzzaFazza/Ideao.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>179323763E7477B2E95DD8A65E61C8E1574AC6FA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>179323763E7477B2E95DD8A65E61C8E1574AC6FA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Ideao</string>
+		</dict>
+	</array>
+</dict>
+</plist>

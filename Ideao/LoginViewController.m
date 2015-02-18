@@ -21,9 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    Digits *digitInstance = [[Digits alloc] init];
-    digitInstance.logOut;
-    
     DGTAuthenticateButton *authenticateButton = [DGTAuthenticateButton buttonWithAuthenticationCompletion:^(DGTSession *session, NSError *error) {
         
         if (session.phoneNumber != nil) {
@@ -40,7 +37,7 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    //[self sessionHandler];
+    [self sessionHandler];
     
     // TODO: Replace this test id with your personal ad unit id
     MPAdView* adView = [[MPAdView alloc] initWithAdUnitId:@"0fd404de447942edb7610228cb412614"

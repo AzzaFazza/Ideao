@@ -1,0 +1,13 @@
+PODS:
+  - FlatUIKit (1.6)
+  - ZLSwipeableView (0.0.6)
+
+DEPENDENCIES:
+  - FlatUIKit
+  - ZLSwipeableView
+
+SPEC CHECKSUMS:
+  FlatUIKit: 48b78e6d026c2f2c8a733425aaa5015c99ffc079
+  ZLSwipeableView: 9e956c587f9aecd16596544a7d079fb86b9c8c3d
+
+COCOAPODS: 0.34.1

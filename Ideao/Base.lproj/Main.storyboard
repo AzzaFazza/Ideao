@@ -53,11 +53,19 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qsx-rm-11G" customClass="ZLSwipeableView">
+                                <rect key="frame" x="87" y="114" width="427" height="371"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="QRa-DS-vZa" secondAttribute="bottom" constant="20" id="1rS-O8-yHm"/>
+                            <constraint firstItem="Qsx-rm-11G" firstAttribute="leading" secondItem="D0O-bw-azv" secondAttribute="leadingMargin" constant="71" id="Avh-S7-zeo"/>
                             <constraint firstItem="QRa-DS-vZa" firstAttribute="leading" secondItem="D0O-bw-azv" secondAttribute="leadingMargin" constant="22" id="C4n-SW-zt3"/>
+                            <constraint firstItem="Qsx-rm-11G" firstAttribute="centerX" secondItem="QRa-DS-vZa" secondAttribute="centerX" id="I66-hB-Qel"/>
+                            <constraint firstItem="QRa-DS-vZa" firstAttribute="top" secondItem="Qsx-rm-11G" secondAttribute="bottom" constant="74" id="KSZ-H3-1ev"/>
+                            <constraint firstItem="Qsx-rm-11G" firstAttribute="top" secondItem="StF-TL-ffp" secondAttribute="bottom" constant="20" id="P2L-95-Oaf"/>
                             <constraint firstItem="QRa-DS-vZa" firstAttribute="centerX" secondItem="D0O-bw-azv" secondAttribute="centerX" id="kTi-Gf-qqG"/>
                             <constraint firstItem="QRa-DS-vZa" firstAttribute="top" secondItem="StF-TL-ffp" secondAttribute="bottom" constant="465" id="mpV-Xb-1Uy"/>
                         </constraints>
@@ -68,11 +76,12 @@
                     </navigationItem>
                     <connections>
                         <outlet property="loggedInInfoLabel" destination="QRa-DS-vZa" id="jso-jg-wlo"/>
+                        <outlet property="swipeableView" destination="Qsx-rm-11G" id="VcJ-oy-iGC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mHq-Aa-buz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2658" y="406"/>
+            <point key="canvasLocation" x="2531" y="363"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="m5v-Wv-sKm">

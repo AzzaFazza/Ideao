@@ -9,11 +9,16 @@
 #import <UIKit/UIKit.h>
 #import <Twitter/Twitter.h>
 #import <MoPub/MPAdView.h>
+#import <ZLSwipeableView/ZLSwipeableView.h>
+#import <UIColor+FlatUI.h>
 
-@interface HomeViewController : UIViewController <MPAdViewDelegate>
+@interface HomeViewController : UIViewController <MPAdViewDelegate, ZLSwipeableViewDataSource, ZLSwipeableViewDelegate>
 
 @property (nonatomic, retain) MPAdView *adView;
 
 @property (weak, nonatomic) IBOutlet UILabel *loggedInInfoLabel;
+@property (weak, nonatomic) IBOutlet ZLSwipeableView *swipeableView;
+@property (nonatomic, strong) NSArray *colors;
+@property (nonatomic) NSUInteger colorIndex;
 
 @end
