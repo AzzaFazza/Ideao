@@ -7,8 +7,11 @@
 //
 
 #import "CardView.h"
+#import "Idea.h"
 
-@implementation CardView
+@implementation CardView {
+    NSMutableArray *ideas;
+}
 
 - (instancetype)init {
     self = [super init];
@@ -46,5 +49,20 @@
     // Corner Radius
     self.layer.cornerRadius = 10.0;
 }
+
+#pragma mark - CoreData Fetch
+- (NSManagedObjectContext *)managedObjectContext {
+    NSManagedObjectContext *context = nil;
+    id delegate = [[UIApplication sharedApplication] delegate];
+    if ([delegate performSelector:@selector(managedObjectContext)]) {
+        context = [delegate managedObjectContext];
+    }
+    return context;
+}
+
+- (void)coreDataFetch {
+    
+}
+
 
 @end

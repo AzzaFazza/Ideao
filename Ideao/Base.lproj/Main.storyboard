@@ -47,31 +47,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRa-DS-vZa">
-                                <rect key="frame" x="38" y="559" width="524" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qsx-rm-11G" customClass="ZLSwipeableView">
-                                <rect key="frame" x="87" y="114" width="427" height="371"/>
-                                <color key="backgroundColor" red="1" green="0.97469007175020506" blue="0.98116174795019773" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="16" y="123" width="568" height="393"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="rdE-xl-XZO" id="oOW-2o-vFR"/>
                                     <outlet property="delegate" destination="rdE-xl-XZO" id="7SA-mW-jy4"/>
                                 </connections>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRa-DS-vZa">
+                                <rect key="frame" x="38" y="524" width="524" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="idn-TB-IYv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="QRa-DS-vZa" secondAttribute="bottom" constant="20" id="1rS-O8-yHm"/>
-                            <constraint firstItem="Qsx-rm-11G" firstAttribute="leading" secondItem="D0O-bw-azv" secondAttribute="leadingMargin" constant="71" id="Avh-S7-zeo"/>
-                            <constraint firstItem="QRa-DS-vZa" firstAttribute="leading" secondItem="D0O-bw-azv" secondAttribute="leadingMargin" constant="22" id="C4n-SW-zt3"/>
-                            <constraint firstItem="Qsx-rm-11G" firstAttribute="centerX" secondItem="QRa-DS-vZa" secondAttribute="centerX" id="I66-hB-Qel"/>
-                            <constraint firstItem="QRa-DS-vZa" firstAttribute="top" secondItem="Qsx-rm-11G" secondAttribute="bottom" constant="74" id="KSZ-H3-1ev"/>
-                            <constraint firstItem="Qsx-rm-11G" firstAttribute="top" secondItem="StF-TL-ffp" secondAttribute="bottom" constant="20" id="P2L-95-Oaf"/>
-                            <constraint firstItem="QRa-DS-vZa" firstAttribute="centerX" secondItem="D0O-bw-azv" secondAttribute="centerX" id="kTi-Gf-qqG"/>
-                            <constraint firstItem="QRa-DS-vZa" firstAttribute="top" secondItem="StF-TL-ffp" secondAttribute="bottom" constant="465" id="mpV-Xb-1Uy"/>
+                            <constraint firstAttribute="bottom" secondItem="QRa-DS-vZa" secondAttribute="bottom" constant="55" id="6P5-et-EgI"/>
+                            <constraint firstItem="Qsx-rm-11G" firstAttribute="leading" secondItem="D0O-bw-azv" secondAttribute="leadingMargin" id="HBp-86-LUE"/>
+                            <constraint firstItem="Qsx-rm-11G" firstAttribute="trailing" secondItem="D0O-bw-azv" secondAttribute="trailingMargin" id="IlW-iV-Uzc"/>
+                            <constraint firstItem="Qsx-rm-11G" firstAttribute="top" secondItem="StF-TL-ffp" secondAttribute="bottom" constant="29" id="R5F-wf-Zg6"/>
+                            <constraint firstItem="QRa-DS-vZa" firstAttribute="leading" secondItem="D0O-bw-azv" secondAttribute="leadingMargin" constant="22" id="ad3-oW-Yfd"/>
+                            <constraint firstItem="QRa-DS-vZa" firstAttribute="centerX" secondItem="Qsx-rm-11G" secondAttribute="centerX" id="gDw-3s-R1G"/>
+                            <constraint firstItem="QRa-DS-vZa" firstAttribute="top" secondItem="Qsx-rm-11G" secondAttribute="bottom" constant="8" symbolic="YES" id="pWy-Qi-JjB"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Home" prompt="Ideao" id="wyk-aG-Pnv">
@@ -85,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mHq-Aa-buz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2531" y="363"/>
+            <point key="canvasLocation" x="2585" y="345"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="m5v-Wv-sKm">

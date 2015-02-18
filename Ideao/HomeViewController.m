@@ -10,7 +10,6 @@
 #import "LoginViewController.h"
 #import "User.h"
 #import "CardView.h"
-#import <UIColor+FlatUI.h>
 
 @interface HomeViewController () {
     User * user;
@@ -20,6 +19,7 @@
 @property (nonatomic) NSUInteger colorIndex;
 @property (nonatomic) BOOL loadCardFromXib;
 @property (nonatomic, strong) NSArray *colors;
+
 @end
 
 @implementation HomeViewController
@@ -205,8 +205,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex {
         CardView *view = [[CardView alloc] initWithFrame:swipeableView.bounds];
         view.backgroundColor = [self colorForName:self.colors[self.colorIndex]];
         self.colorIndex++;
-        
-        if (self.loadCardFromXib) {
+
             UIView *contentView =
             [[[NSBundle mainBundle] loadNibNamed:@"CardContentView"
                                            owner:self
@@ -233,16 +232,6 @@ clickedButtonAtIndex:(NSInteger)buttonIndex {
                                   options:0
                                   metrics:metrics
                                   views:views]];
-        } else {
-            UITextView *textView =
-            [[UITextView alloc] initWithFrame:view.bounds];
-            textView.text = @"This UITextView was created programmatically.";
-            textView.backgroundColor = [UIColor clearColor];
-            textView.font = [UIFont systemFontOfSize:24];
-            textView.editable = NO;
-            textView.selectable = NO;
-            [view addSubview:textView];
-        }
         
         return view;
     }

@@ -26,6 +26,7 @@
 		36F403741A9502AD00E46829 /* CardContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36F403711A9502AD00E46829 /* CardContentView.xib */; };
 		36F403751A9502AD00E46829 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F403731A9502AD00E46829 /* CardView.m */; };
 		36F403841A950BD800E46829 /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F403831A950BD800E46829 /* UIColor+FlatColors.m */; };
+		36F403871A950FCD00E46829 /* Idea.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F403861A950FCD00E46829 /* Idea.m */; };
 		C583887AB5893C19AE3983FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5EE43D002AAA21B4F91256 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,8 @@
 		36F403731A9502AD00E46829 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		36F403821A950BD800E46829 /* UIColor+FlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColors.h"; sourceTree = "<group>"; };
 		36F403831A950BD800E46829 /* UIColor+FlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColors.m"; sourceTree = "<group>"; };
+		36F403851A950FCD00E46829 /* Idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Idea.h; path = DataModels/Idea.h; sourceTree = "<group>"; };
+		36F403861A950FCD00E46829 /* Idea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Idea.m; path = DataModels/Idea.m; sourceTree = "<group>"; };
 		3B5EE43D002AAA21B4F91256 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5800B3B9917B19071961D7D4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,6 +215,8 @@
 				362E9A4B1A94C96A00CFC25A /* Ideao.xcdatamodeld */,
 				362E9A7A1A94EC5300CFC25A /* User.h */,
 				362E9A7B1A94EC5300CFC25A /* User.m */,
+				36F403851A950FCD00E46829 /* Idea.h */,
+				36F403861A950FCD00E46829 /* Idea.m */,
 			);
 			name = DataModels;
 			sourceTree = "<group>";
@@ -408,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F403841A950BD800E46829 /* UIColor+FlatColors.m in Sources */,
+				36F403871A950FCD00E46829 /* Idea.m in Sources */,
 				362E9A4A1A94C96A00CFC25A /* AppDelegate.m in Sources */,
 				362E9A4D1A94C96A00CFC25A /* Ideao.xcdatamodeld in Sources */,
 				362E9A7C1A94EC5300CFC25A /* User.m in Sources */,
