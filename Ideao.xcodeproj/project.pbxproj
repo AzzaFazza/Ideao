@@ -25,6 +25,7 @@
 		362E9A801A94F80400CFC25A /* MoPub.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 362E9A7E1A94F80400CFC25A /* MoPub.bundle */; };
 		36F403741A9502AD00E46829 /* CardContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36F403711A9502AD00E46829 /* CardContentView.xib */; };
 		36F403751A9502AD00E46829 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F403731A9502AD00E46829 /* CardView.m */; };
+		36F403841A950BD800E46829 /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F403831A950BD800E46829 /* UIColor+FlatColors.m */; };
 		C583887AB5893C19AE3983FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5EE43D002AAA21B4F91256 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,8 @@
 		36F403711A9502AD00E46829 /* CardContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardContentView.xib; sourceTree = "<group>"; };
 		36F403721A9502AD00E46829 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
 		36F403731A9502AD00E46829 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		36F403821A950BD800E46829 /* UIColor+FlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatColors.h"; sourceTree = "<group>"; };
+		36F403831A950BD800E46829 /* UIColor+FlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColors.m"; sourceTree = "<group>"; };
 		3B5EE43D002AAA21B4F91256 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5800B3B9917B19071961D7D4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,6 +192,7 @@
 			children = (
 				362E9A761A94DF3600CFC25A /* HomeViewController.h */,
 				362E9A771A94DF3600CFC25A /* HomeViewController.m */,
+				36F403811A950BD800E46829 /* UIColor+FlatColors */,
 			);
 			name = HomeViewController;
 			sourceTree = "<group>";
@@ -223,6 +227,15 @@
 				362E9A6F1A94C9E700CFC25A /* Fabric.framework */,
 			);
 			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+		36F403811A950BD800E46829 /* UIColor+FlatColors */ = {
+			isa = PBXGroup;
+			children = (
+				36F403821A950BD800E46829 /* UIColor+FlatColors.h */,
+				36F403831A950BD800E46829 /* UIColor+FlatColors.m */,
+			);
+			path = "UIColor+FlatColors";
 			sourceTree = "<group>";
 		};
 		4BE89C750E74D7B18E1C5029 /* Frameworks */ = {
@@ -394,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F403841A950BD800E46829 /* UIColor+FlatColors.m in Sources */,
 				362E9A4A1A94C96A00CFC25A /* AppDelegate.m in Sources */,
 				362E9A4D1A94C96A00CFC25A /* Ideao.xcdatamodeld in Sources */,
 				362E9A7C1A94EC5300CFC25A /* User.m in Sources */,
