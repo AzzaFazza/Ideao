@@ -10,11 +10,19 @@
 		362E9A471A94C96A00CFC25A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 362E9A461A94C96A00CFC25A /* main.m */; };
 		362E9A4A1A94C96A00CFC25A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 362E9A491A94C96A00CFC25A /* AppDelegate.m */; };
 		362E9A4D1A94C96A00CFC25A /* Ideao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 362E9A4B1A94C96A00CFC25A /* Ideao.xcdatamodeld */; };
-		362E9A501A94C96A00CFC25A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362E9A4F1A94C96A00CFC25A /* ViewController.m */; };
+		362E9A501A94C96A00CFC25A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362E9A4F1A94C96A00CFC25A /* LoginViewController.m */; };
 		362E9A531A94C96A00CFC25A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362E9A511A94C96A00CFC25A /* Main.storyboard */; };
 		362E9A551A94C96A00CFC25A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362E9A541A94C96A00CFC25A /* Images.xcassets */; };
 		362E9A581A94C96A00CFC25A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362E9A561A94C96A00CFC25A /* LaunchScreen.xib */; };
 		362E9A641A94C96A00CFC25A /* IdeaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 362E9A631A94C96A00CFC25A /* IdeaoTests.m */; };
+		362E9A701A94C9E700CFC25A /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362E9A6E1A94C9E700CFC25A /* Crashlytics.framework */; };
+		362E9A711A94C9E700CFC25A /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362E9A6F1A94C9E700CFC25A /* Fabric.framework */; };
+		362E9A741A94CA3D00CFC25A /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362E9A721A94CA3D00CFC25A /* TwitterKit.framework */; };
+		362E9A751A94CA3D00CFC25A /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 362E9A731A94CA3D00CFC25A /* TwitterKitResources.bundle */; };
+		362E9A791A94E9AC00CFC25A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362E9A771A94DF3600CFC25A /* HomeViewController.m */; };
+		362E9A7C1A94EC5300CFC25A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 362E9A7B1A94EC5300CFC25A /* User.m */; };
+		362E9A7F1A94F80400CFC25A /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362E9A7D1A94F80400CFC25A /* MoPub.framework */; };
+		362E9A801A94F80400CFC25A /* MoPub.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 362E9A7E1A94F80400CFC25A /* MoPub.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +42,24 @@
 		362E9A481A94C96A00CFC25A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		362E9A491A94C96A00CFC25A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		362E9A4C1A94C96A00CFC25A /* Ideao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ideao.xcdatamodel; sourceTree = "<group>"; };
-		362E9A4E1A94C96A00CFC25A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		362E9A4F1A94C96A00CFC25A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		362E9A4E1A94C96A00CFC25A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		362E9A4F1A94C96A00CFC25A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		362E9A521A94C96A00CFC25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		362E9A541A94C96A00CFC25A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		362E9A571A94C96A00CFC25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		362E9A5D1A94C96A00CFC25A /* IdeaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdeaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		362E9A621A94C96A00CFC25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		362E9A631A94C96A00CFC25A /* IdeaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdeaoTests.m; sourceTree = "<group>"; };
+		362E9A6E1A94C9E700CFC25A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		362E9A6F1A94C9E700CFC25A /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		362E9A721A94CA3D00CFC25A /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = SOURCE_ROOT; };
+		362E9A731A94CA3D00CFC25A /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = SOURCE_ROOT; };
+		362E9A761A94DF3600CFC25A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		362E9A771A94DF3600CFC25A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		362E9A7A1A94EC5300CFC25A /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = DataModels/User.h; sourceTree = "<group>"; };
+		362E9A7B1A94EC5300CFC25A /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = DataModels/User.m; sourceTree = "<group>"; };
+		362E9A7D1A94F80400CFC25A /* MoPub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MoPub.framework; sourceTree = SOURCE_ROOT; };
+		362E9A7E1A94F80400CFC25A /* MoPub.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MoPub.bundle; path = MoPub.framework/Versions/A/Resources/MoPub.bundle; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362E9A701A94C9E700CFC25A /* Crashlytics.framework in Frameworks */,
+				362E9A711A94C9E700CFC25A /* Fabric.framework in Frameworks */,
+				362E9A7F1A94F80400CFC25A /* MoPub.framework in Frameworks */,
+				362E9A741A94CA3D00CFC25A /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +107,22 @@
 			children = (
 				362E9A481A94C96A00CFC25A /* AppDelegate.h */,
 				362E9A491A94C96A00CFC25A /* AppDelegate.m */,
-				362E9A4E1A94C96A00CFC25A /* ViewController.h */,
-				362E9A4F1A94C96A00CFC25A /* ViewController.m */,
+				362E9A4E1A94C96A00CFC25A /* LoginViewController.h */,
+				362E9A4F1A94C96A00CFC25A /* LoginViewController.m */,
+				362E9A761A94DF3600CFC25A /* HomeViewController.h */,
+				362E9A771A94DF3600CFC25A /* HomeViewController.m */,
 				362E9A511A94C96A00CFC25A /* Main.storyboard */,
 				362E9A541A94C96A00CFC25A /* Images.xcassets */,
 				362E9A561A94C96A00CFC25A /* LaunchScreen.xib */,
 				362E9A4B1A94C96A00CFC25A /* Ideao.xcdatamodeld */,
+				362E9A7A1A94EC5300CFC25A /* User.h */,
+				362E9A7B1A94EC5300CFC25A /* User.m */,
+				362E9A7D1A94F80400CFC25A /* MoPub.framework */,
+				362E9A7E1A94F80400CFC25A /* MoPub.bundle */,
+				362E9A721A94CA3D00CFC25A /* TwitterKit.framework */,
+				362E9A731A94CA3D00CFC25A /* TwitterKitResources.bundle */,
+				362E9A6E1A94C9E700CFC25A /* Crashlytics.framework */,
+				362E9A6F1A94C9E700CFC25A /* Fabric.framework */,
 				362E9A441A94C96A00CFC25A /* Supporting Files */,
 			);
 			path = Ideao;
@@ -132,6 +164,7 @@
 				362E9A3D1A94C96A00CFC25A /* Sources */,
 				362E9A3E1A94C96A00CFC25A /* Frameworks */,
 				362E9A3F1A94C96A00CFC25A /* Resources */,
+				362E9A6D1A94C9A000CFC25A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -202,7 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362E9A751A94CA3D00CFC25A /* TwitterKitResources.bundle in Resources */,
 				362E9A531A94C96A00CFC25A /* Main.storyboard in Resources */,
+				362E9A801A94F80400CFC25A /* MoPub.bundle in Resources */,
 				362E9A581A94C96A00CFC25A /* LaunchScreen.xib in Resources */,
 				362E9A551A94C96A00CFC25A /* Images.xcassets in Resources */,
 			);
@@ -217,6 +252,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		362E9A6D1A94C9A000CFC25A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run bafd2bcb9a8d0d0aeaadc0c43fe1348be257fae3 7fee39636c6cd92cac0aa280bdb23a40c6e7fb94db02135a4bc45b34a1e0a558";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		362E9A3D1A94C96A00CFC25A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -224,7 +275,9 @@
 			files = (
 				362E9A4A1A94C96A00CFC25A /* AppDelegate.m in Sources */,
 				362E9A4D1A94C96A00CFC25A /* Ideao.xcdatamodeld in Sources */,
-				362E9A501A94C96A00CFC25A /* ViewController.m in Sources */,
+				362E9A7C1A94EC5300CFC25A /* User.m in Sources */,
+				362E9A501A94C96A00CFC25A /* LoginViewController.m in Sources */,
+				362E9A791A94E9AC00CFC25A /* HomeViewController.m in Sources */,
 				362E9A471A94C96A00CFC25A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +400,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Ideao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Ideao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +477,7 @@
 				362E9A691A94C96A00CFC25A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		362E9A6A1A94C96A00CFC25A /* Build configuration list for PBXNativeTarget "IdeaoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +486,7 @@
 				362E9A6C1A94C96A00CFC25A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

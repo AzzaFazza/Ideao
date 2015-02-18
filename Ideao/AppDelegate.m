@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+#import <TwitterKit/TwitterKit.h>
+#import <MoPub/MoPub.h>
+
 
 @interface AppDelegate ()
 
@@ -17,6 +22,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Fabric with:@[CrashlyticsKit, TwitterKit, MoPubKit]];
+
+
+
     return YES;
 }
 
