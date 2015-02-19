@@ -1,0 +1,1 @@
+ const unsigned char TextFieldsDemoVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:TextFieldsDemo  PROJECT:TextFieldEffects-1" "\n"; const double TextFieldsDemoVersionNumber __attribute__ ((used)) = (double)1.;

@@ -1,2 +1,2 @@
-dependencies: /Users/adamf/Desktop/Ideao/Ideao/main.m \
-  /Users/adamf/Desktop/Ideao/Ideao/AppDelegate.h
+dependencies: /Users/adamf/Desktop/ideao/Ideao/main.m \
+  /Users/adamf/Desktop/ideao/Ideao/AppDelegate.h

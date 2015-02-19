@@ -37,7 +37,7 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated {
-    [self sessionHandler];
+    //[self sessionHandler];
     
     // TODO: Replace this test id with your personal ad unit id
     MPAdView* adView = [[MPAdView alloc] initWithAdUnitId:@"0fd404de447942edb7610228cb412614"

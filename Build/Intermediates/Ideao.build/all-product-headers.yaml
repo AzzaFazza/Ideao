@@ -1,0 +1,50 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/adamf/Desktop/ideao/Build/Products/Debug-iphoneos/Ideao.app/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Ideao-Swift.h",
+          'external-contents': "/Users/adamf/Desktop/ideao/Build/Products/Debug-iphoneos/Ideao.app/Headers/Ideao-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/adamf/Desktop/ideao/Build/Products/Debug-iphoneos/Ideao.app/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/adamf/Desktop/ideao/Build/Products/Debug-iphoneos/Ideao.app/Modules/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/adamf/Desktop/ideao/Build/Products/Debug-iphoneos/IdeaoTests.xctest/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "IdeaoTests-Swift.h",
+          'external-contents': "/Users/adamf/Desktop/ideao/Build/Products/Debug-iphoneos/IdeaoTests.xctest/Headers/IdeaoTests-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/adamf/Desktop/ideao/Build/Products/Debug-iphoneos/IdeaoTests.xctest/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/adamf/Desktop/ideao/Build/Products/Debug-iphoneos/IdeaoTests.xctest/Modules/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

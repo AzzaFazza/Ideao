@@ -27,6 +27,7 @@
 		36F403751A9502AD00E46829 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F403731A9502AD00E46829 /* CardView.m */; };
 		36F403841A950BD800E46829 /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F403831A950BD800E46829 /* UIColor+FlatColors.m */; };
 		36F403871A950FCD00E46829 /* Idea.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F403861A950FCD00E46829 /* Idea.m */; };
+		36FF61A21A9600AB008AE98B /* AddEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FF61A11A9600AB008AE98B /* AddEntryViewController.m */; };
 		C583887AB5893C19AE3983FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5EE43D002AAA21B4F91256 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,8 @@
 		36F403831A950BD800E46829 /* UIColor+FlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatColors.m"; sourceTree = "<group>"; };
 		36F403851A950FCD00E46829 /* Idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Idea.h; path = DataModels/Idea.h; sourceTree = "<group>"; };
 		36F403861A950FCD00E46829 /* Idea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Idea.m; path = DataModels/Idea.m; sourceTree = "<group>"; };
+		36FF61A01A9600AB008AE98B /* AddEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEntryViewController.h; sourceTree = "<group>"; };
+		36FF61A11A9600AB008AE98B /* AddEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEntryViewController.m; sourceTree = "<group>"; };
 		3B5EE43D002AAA21B4F91256 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5800B3B9917B19071961D7D4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +126,7 @@
 		362E9A431A94C96A00CFC25A /* Ideao */ = {
 			isa = PBXGroup;
 			children = (
+				36FF619F1A960074008AE98B /* AddEntry */,
 				36F4037C1A95033900E46829 /* FrameWorks */,
 				36F4037B1A95030C00E46829 /* DataModels */,
 				36F4037A1A9502F700E46829 /* StoryBoard */,
@@ -139,6 +143,7 @@
 		362E9A441A94C96A00CFC25A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36FF62331A962AE9008AE98B /* Images */,
 				362E9A451A94C96A00CFC25A /* Info.plist */,
 				362E9A461A94C96A00CFC25A /* main.m */,
 			);
@@ -241,6 +246,22 @@
 				36F403831A950BD800E46829 /* UIColor+FlatColors.m */,
 			);
 			path = "UIColor+FlatColors";
+			sourceTree = "<group>";
+		};
+		36FF619F1A960074008AE98B /* AddEntry */ = {
+			isa = PBXGroup;
+			children = (
+				36FF61A01A9600AB008AE98B /* AddEntryViewController.h */,
+				36FF61A11A9600AB008AE98B /* AddEntryViewController.m */,
+			);
+			name = AddEntry;
+			sourceTree = "<group>";
+		};
+		36FF62331A962AE9008AE98B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		4BE89C750E74D7B18E1C5029 /* Frameworks */ = {
@@ -417,6 +438,7 @@
 				362E9A4A1A94C96A00CFC25A /* AppDelegate.m in Sources */,
 				362E9A4D1A94C96A00CFC25A /* Ideao.xcdatamodeld in Sources */,
 				362E9A7C1A94EC5300CFC25A /* User.m in Sources */,
+				36FF61A21A9600AB008AE98B /* AddEntryViewController.m in Sources */,
 				362E9A501A94C96A00CFC25A /* LoginViewController.m in Sources */,
 				362E9A791A94E9AC00CFC25A /* HomeViewController.m in Sources */,
 				362E9A471A94C96A00CFC25A /* main.m in Sources */,
@@ -481,6 +503,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -522,6 +545,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

@@ -1,5 +1,5 @@
-dependencies: /Users/adamf/Desktop/Ideao/Ideao/LoginViewController.m \
-  /Users/adamf/Desktop/Ideao/Ideao/LoginViewController.h \
+dependencies: /Users/adamf/Desktop/ideao/Ideao/LoginViewController.m \
+  /Users/adamf/Desktop/ideao/Ideao/LoginViewController.h \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Headers/TWTRUser.h \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Headers/TWTRTweetViewDelegate.h \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Headers/TWTRTweetView.h \
@@ -50,4 +50,4 @@ dependencies: /Users/adamf/Desktop/Ideao/Ideao/LoginViewController.m \
   /Users/adamf/Desktop/Ideao/MoPub.framework/Headers/MPAdConversionTracker.h \
   /Users/adamf/Desktop/Ideao/MoPub.framework/Headers/MoPub.h \
   /Users/adamf/Desktop/Ideao/MoPub.framework/Modules/module.modulemap \
-  /Users/adamf/Desktop/Ideao/Ideao/DataModels/User.h
+  /Users/adamf/Desktop/ideao/Ideao/DataModels/User.h

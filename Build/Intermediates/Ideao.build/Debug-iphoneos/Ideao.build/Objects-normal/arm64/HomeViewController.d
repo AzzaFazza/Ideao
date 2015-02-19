@@ -1,5 +1,5 @@
-dependencies: /Users/adamf/Desktop/Ideao/Ideao/HomeViewController.m \
-  /Users/adamf/Desktop/Ideao/Ideao/HomeViewController.h \
+dependencies: /Users/adamf/Desktop/ideao/Ideao/HomeViewController.m \
+  /Users/adamf/Desktop/ideao/Ideao/HomeViewController.h \
   /Users/adamf/Desktop/Ideao/MoPub.framework/Headers/MPNativeAdDelegate.h \
   /Users/adamf/Desktop/Ideao/MoPub.framework/Headers/MPNativeAdSampleView.h \
   /Users/adamf/Desktop/Ideao/MoPub.framework/Headers/MPNativeAdSampleTableViewCell.h \
@@ -28,7 +28,7 @@ dependencies: /Users/adamf/Desktop/Ideao/Ideao/HomeViewController.m \
   /Users/adamf/Desktop/Ideao/MoPub.framework/Headers/MPAdConversionTracker.h \
   /Users/adamf/Desktop/Ideao/MoPub.framework/Headers/MoPub.h \
   /Users/adamf/Desktop/Ideao/MoPub.framework/Modules/module.modulemap \
-  /Users/adamf/Desktop/Ideao/Ideao/LoginViewController.h \
+  /Users/adamf/Desktop/ideao/Ideao/LoginViewController.h \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Headers/TWTRUser.h \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Headers/TWTRTweetViewDelegate.h \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Headers/TWTRTweetView.h \
@@ -51,5 +51,5 @@ dependencies: /Users/adamf/Desktop/Ideao/Ideao/HomeViewController.m \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Headers/Digits.h \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Headers/TwitterKit.h \
   /Users/adamf/Desktop/Ideao/TwitterKit.framework/Modules/module.modulemap \
-  /Users/adamf/Desktop/Ideao/Ideao/DataModels/User.h \
-  /Users/adamf/Desktop/Ideao/Ideao/CardView.h
+  /Users/adamf/Desktop/ideao/Ideao/DataModels/User.h \
+  /Users/adamf/Desktop/ideao/Ideao/CardView.h

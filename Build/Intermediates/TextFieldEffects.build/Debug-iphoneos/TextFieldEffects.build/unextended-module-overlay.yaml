@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/adamf/Desktop/ideao/Build/Products/Debug-iphoneos/TextFieldEffects.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/adamf/Desktop/ideao/Build/Intermediates/TextFieldEffects.build/Debug-iphoneos/TextFieldEffects.build/unextended-module.modulemap',
+    }]
+  }]
+}

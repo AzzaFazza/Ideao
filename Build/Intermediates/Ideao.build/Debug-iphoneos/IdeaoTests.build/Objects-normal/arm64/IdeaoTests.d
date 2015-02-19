@@ -1,4 +1,4 @@
-dependencies: /Users/adamf/Desktop/Ideao/IdeaoTests/IdeaoTests.m \
+dependencies: /Users/adamf/Desktop/ideao/IdeaoTests/IdeaoTests.m \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h \

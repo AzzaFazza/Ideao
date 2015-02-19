@@ -1,5 +1,5 @@
-dependencies: /Users/adamf/Desktop/Ideao/Ideao/AppDelegate.m \
-  /Users/adamf/Desktop/Ideao/Ideao/AppDelegate.h \
+dependencies: /Users/adamf/Desktop/ideao/Ideao/AppDelegate.m \
+  /Users/adamf/Desktop/ideao/Ideao/AppDelegate.h \
   /Users/adamf/Desktop/Ideao/Fabric.framework/Headers/Fabric.h \
   /Users/adamf/Desktop/Ideao/Fabric.framework/Modules/module.modulemap \
   /Users/adamf/Desktop/Ideao/Crashlytics.framework/Headers/Crashlytics.h \

@@ -6,6 +6,9 @@
         <attribute name="ideaName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="ideaTags" optional="YES" attributeType="Binary" syncable="YES"/>
     </entity>
+    <entity name="IdeaArray" syncable="YES">
+        <attribute name="allIdeas" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
     <entity name="User" representedClassName="User" syncable="YES">
         <attribute name="authToken" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="authTokenSecret" optional="YES" attributeType="String" syncable="YES"/>
@@ -13,7 +16,8 @@
         <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="User" positionX="-63" positionY="-18" width="128" height="105"/>
         <element name="Idea" positionX="-63" positionY="9" width="128" height="105"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="IdeaArray" positionX="-63" positionY="27" width="128" height="60"/>
     </elements>
 </model>

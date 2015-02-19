@@ -24,8 +24,6 @@
     // Override point for customization after application launch.
     [Fabric with:@[CrashlyticsKit, TwitterKit, MoPubKit]];
 
-
-
     return YES;
 }
 

@@ -13,6 +13,7 @@
 
 @interface HomeViewController () {
     User * user;
+    NSMutableArray *allIdeas;
 }
 
 @property (nonatomic, weak) IBOutlet ZLSwipeableView *swipeableView;
@@ -38,6 +39,7 @@
     [super didReceiveMemoryWarning];
 }
 
+#pragma mark - Core Data
 - (NSManagedObjectContext *)managedObjectContext {
     NSManagedObjectContext *context = nil;
     id delegate = [[UIApplication sharedApplication] delegate];

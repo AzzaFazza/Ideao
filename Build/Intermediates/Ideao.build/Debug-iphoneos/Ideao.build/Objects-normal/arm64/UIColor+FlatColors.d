@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/adamf/Desktop/Ideao/Ideao/UIColor+FlatColors/UIColor+FlatColors.m \
-  /Users/adamf/Desktop/Ideao/Ideao/UIColor+FlatColors/UIColor+FlatColors.h
+  /Users/adamf/Desktop/ideao/Ideao/UIColor+FlatColors/UIColor+FlatColors.m \
+  /Users/adamf/Desktop/ideao/Ideao/UIColor+FlatColors/UIColor+FlatColors.h
